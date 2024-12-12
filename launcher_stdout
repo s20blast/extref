@@ -1,0 +1,41 @@
+$ HOME=$PWD ./bin/launch_cvd --daemon
+===================================================================
+NOTICE:
+
+By using this Android Virtual Device, you agree to
+Google Terms of Service (https://policies.google.com/terms).
+The Google Privacy Policy (https://policies.google.com/privacy)
+describes how Google handles information generated as you use
+Google Services.
+===================================================================
+Automatically send diagnostic information to Google, such as crash
+reports and usage data from this Android Virtual Device. You can
+adjust this permission at any time by running
+"launch_cvd -report_anonymous_usage_stats=n". (Y/n)?:Must accept/reject anonymous usage statistics reporting (Y/n): y
+launch_cvd I 12-12 05:30:26 24847 24847 main.cc:324] Host changed from last run: 1
+assemble_cvd D 12-12 05:30:26 24868 24868 fetcher_config.cpp:224] Could not find file ending in kernel
+assemble_cvd D 12-12 05:30:26 24868 24868 fetcher_config.cpp:224] Could not find file ending in initramfs.img
+assemble_cvd I 12-12 05:30:26 24868 24868 config_flag.cpp:156] Launching CVD using --config='phone'.
+assemble_cvd D 12-12 05:30:26 24868 24868 subprocess.cpp:333] Started (pid: 24871): /cf/bin/extract-ikconfig
+assemble_cvd D 12-12 05:30:26 24868 24868 subprocess.cpp:335] /cf/boot.img
+assemble_cvd D 12-12 05:30:27 24868 24868 subprocess.cpp:333] Started (pid: 24879): /cf/bin/unpack_bootimg
+assemble_cvd D 12-12 05:30:27 24868 24868 subprocess.cpp:335] --boot_img
+assemble_cvd D 12-12 05:30:27 24868 24868 subprocess.cpp:335] /cf/boot.img
+assemble_cvd D 12-12 05:30:27 24868 24868 subprocess.cpp:335] --out
+assemble_cvd D 12-12 05:30:27 24868 24868 subprocess.cpp:335] /tmp/a2w99Z
+Failed to load library: libEGL.so
+Failed to load library: libEGL.so.1
+Failed to load library: libEGL.so
+Failed to load library: libEGL.so.1
+GPU auto mode: did not detect prerequisites for accelerated rendering support, enabling --gpu_mode=guest_swiftshader.
+Requested resuming a previous session (the default behavior) but the base images have changed under the overlay, making the overlay incompatible. Wiping the overlay files.
+Path for instance UDS: /tmp/cf_avd_0
+The following files contain useful debugging information:
+  Logcat output: /cf/cuttlefish/instances/cvd-1/logs/logcat
+  Kernel log: /cf/cuttlefish/instances/cvd-1/kernel.log
+  Point your browser to https://localhost:8443 to interact with the device.
+  Launcher log: /cf/cuttlefish/instances/cvd-1/logs/launcher.log
+  Instance configuration: /cf/cuttlefish/instances/cvd-1/cuttlefish_config.json
+Failed to read a complete exit code, read 0 bytes only instead of the expected 4
+VIRTUAL_DEVICE_BOOT_FAILED
+launch_cvd E 12-12 05:32:09 24847 24847 main.cc:420] run_cvd returned 10
