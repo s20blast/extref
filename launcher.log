@@ -1,5 +1,3 @@
-root@doriberry:/cf/bin# cat /cf/cuttlefish/instances/cvd-1/logs/launcher.log
-
 assemble_cvd E 12-12 05:30:28 24882 24882 lib.cpp:35] Failed to load library: libEGL.so
 assemble_cvd E 12-12 05:30:28 24882 24882 lib.cpp:35] Failed to load library: libEGL.so.1
 assemble_cvd E 12-12 05:30:28 24868 24868 lib.cpp:35] Failed to load library: libEGL.so
