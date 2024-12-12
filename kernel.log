@@ -1,0 +1,44 @@
+U-Boot 2023.01-21885-gb3cc1cd24d (Apr 13 2023 - 16:27:56 +0000)
+
+DRAM:  4 GiB
+Core:  8 devices, 5 uclasses, devicetree: board
+## Android Verified Boot 2.0 version 1.1.0
+read_is_device_unlocked not supported yet
+read_rollback_index not supported yet
+read_rollback_index not supported yet
+read_rollback_index not supported yet
+read_is_device_unlocked not supported yet
+Verification passed successfully
+Imported supplementary environment
+ANDROID: reboot reason: "(none)"
+ANDROID: Booting Unlocked!!
+ANDROID: Invalid CRC-32 (expected 807077e9, found 00000000),re-initializing A/B metadata.
+ANDROID: Attempting slot a, tries remaining 3
+## Android Verified Boot 2.0 version 1.1.0
+read_is_device_unlocked not supported yet
+read_rollback_index not supported yet
+read_rollback_index not supported yet
+read_rollback_index not supported yet
+read_rollback_index not supported yet
+read_rollback_index not supported yet
+read_is_device_unlocked not supported yet
+Verification passed successfully
+## Android Verified Boot 2.0 version 1.1.0
+read_is_device_unlocked not supported yet
+read_rollback_index not supported yet
+read_rollback_index not supported yet
+read_rollback_index not supported yet
+read_is_device_unlocked not supported yet
+Verification passed successfully
+ANDROID: Loading ramdisk from "init_boot_a", partition 4.
+ANDROID: Loading kernel from "boot_a", partition 2.
+ANDROID: Loading vendor ramdisk from "vendor_boot_a", partition 6.
+Booting kernel at 0x80200000 with fdt at 80000000 ramdisk 0x84200000:0x01162651...
+
+
+## Flattened Device Tree blob at 80000000
+   Booting using the fdt blob at 0x80000000
+   Loading Ramdisk to 17ccec000, end 17de4e651 ... OK
+   Loading Device Tree to 000000017cce7000, end 000000017cceb221 ... OK
+
+Starting kernel ...
